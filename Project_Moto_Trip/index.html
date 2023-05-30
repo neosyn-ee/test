@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moto Trip</title>
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <h1>Moto Trips</h1>
+            <h3>Add new trip</h3>
+            <label for="username"><b>Username</b></label>
+            <input type="text" id="username" name="username" value="" placeholder="username"><br>
+            <label for="daytrip"><b>Trip day(date and time)</b></label>
+            <input type="datetime-local" id="daytrip" name="daytrip"><br>
+            <label for="departure"><b>Place of departure</b></label>
+            <input type="text" id="departure" name="departure" value="" placeholder="departure"><br>
+            <label for="destination"><b>Destination</b></label>
+            <input type="text" id="destination" name="destination" value="" placeholder="destination"><br>
+
+            <label for="km"><b>Km range</b></label>
+            <select name="km" id="km">
+                <option value="50">0-50</option>
+                <option value="100">51-100</option>
+                <option value="250">101-250</option>
+                <option value="400">251-400</option>
+                <option value="400+">400+</option>
+            </select>
+
+            <br><label for=""><b>Difficulty</b></label>
+            <select name="difficulty" id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select><br>
+            <label for="photo"><b>Photos</b></label>
+            <input type="image" id="photo" name="photo" value="" placeholder="photo">
+            <button type="submit" class="image">Add photo</button><br>
+
+
+            <button type="submit" class="registerbtn"><b>Add new trip</b></button>
+        </div>
+
+    </form>
+</body>
+
+</html>
