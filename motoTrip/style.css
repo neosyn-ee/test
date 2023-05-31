@@ -12,9 +12,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: 50%; */
 }
 
+.background__image-home{
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -159,4 +163,69 @@ option:hover {
 
 option:checked {
     background-color: orange;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lemonchiffon; */
+    padding: 30px 60px;
+}
+
+.card_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.item_image {
+    /* container */
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 600px;
+}
+
+.image_preview{
+    /* border: 1px solid; */
+    border-radius: 15px;
+    height: 100%;
+}
+
+.image_heart_icon {
+    /* content */
+    position: absolute;
+    /* posizione in cui deve stare */
+    top: 10px;
+    right: 10px;
+}
+
+.item_info{
+    display:flex;
+    flex-direction: column;
+}
+
+.info_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+.info_description{
+    display: flex;
+    flex-direction: column;
+}
+
+.info_description p{
+    margin: 0px;
+}
+
+.vision{
+    font-size: xx-large;
 }
